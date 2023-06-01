@@ -408,6 +408,9 @@ main > div{
     .cntrLogo img {
         width: 80px;
     }
+    .categoarias span{
+        display: none;
+    }
 }
 @media only screen and (max-width: 800px) {
 
