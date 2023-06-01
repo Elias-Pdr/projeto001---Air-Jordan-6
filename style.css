@@ -8,6 +8,8 @@ body{
     overflow-x: hidden;
     background-color: var(--corPrincipal);
     min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 .cntrCamadaFundo{
     width: 100vw;
