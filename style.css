@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+html{
+    max-width: 100vw;
+}
 body{
     overflow-x: hidden;
     background-color: var(--corPrincipal);
@@ -12,7 +15,7 @@ body{
     overflow-x: hidden;
 }
 .cntrCamadaFundo{
-    width: 100vw;
+    max-width: 100vw;
     min-height: 100vh;
     position: absolute;
     overflow: hidden;
@@ -410,6 +413,9 @@ main > div{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    header > span {
+        height: 34px;
     }
     .cntrLogo img {
         width: 80px;
