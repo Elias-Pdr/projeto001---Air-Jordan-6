@@ -405,6 +405,12 @@ main > div{
         right: 20px;
         width: calc(100% - 160px);
     }
+    .cntrLogo{
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .cntrLogo img {
         width: 80px;
     }
