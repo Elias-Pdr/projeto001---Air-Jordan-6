@@ -398,7 +398,8 @@ main > div{
     }
     .cntrCamadaFundo {
         overflow: visible;
-
+        width: 100%;
+        overflow-x: hidden;
     }
     .cntrLogo {
         left: 20px;
