@@ -281,7 +281,7 @@ main > div{
 .carrinho{
     position: fixed;
     width: calc(100vw - 14px);
-    height: 100vh;
+    height: 100%;
     background-color: var(--corPrincipal);
     z-index: 99;
     top: 0px;
@@ -289,28 +289,28 @@ main > div{
     color: white;
     max-width: 850px;
     display: none;
-    box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 0px 200vw rgba(0, 0, 0, 0.6);
 }
 @keyframes carrinhoOpen {
     0%{
         right: calc(850px *-1);
-        box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px 200vw rgba(0, 0, 0, 0);
 
     }
     100%{
         right: 0px;
-        box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.6);
+        box-shadow: 0px 0px 0px 200vw rgba(0, 0, 0, 0.6);
     }
 }
 @keyframes carrinhoClose {
     0%{
         right: 0px;
-        box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0.6);
+        box-shadow: 0px 0px 0px 200vw rgba(0, 0, 0, 0.6);
 
     }
     100%{
         right: calc(850px *-1);
-        box-shadow: 0px 0px 0px 100vw rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px 200vw rgba(0, 0, 0, 0);
     }
 }
 .bntVoltarCart {
@@ -582,6 +582,9 @@ main > div{
     }
     .nomeProdutoMobile{
         font-size: 4em;
+    }
+    .precoMobile{
+        font-size: 1.7em;
     }
     .cntrCamadaFundo {
         width: 100%;
